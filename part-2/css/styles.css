@@ -27,3 +27,33 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+figure.film-poster {
+    position: relative;
+    float: left;
+    width: 60%;
+    margin-right:2%;
+}
+
+.action-watch-later {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: red;
+}
+
+.film-details {
+    float: right;
+    width: 38%
+}
+
+.action-like {
+    color: red;
+    float:right;
+}
+
+article.film {
+    overflow: hidden;
+    padding:1em;
+    border:1px solid gainsboro;
+}
